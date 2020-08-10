@@ -1,6 +1,8 @@
 ---
-layout:default
-title: 开篇
+layout: post
+title: "Beginning hhh"
+date: 2020-08-10 23:32:59 +0800
+categories: Thinking
 ---
 # 开篇
 一直以来都想把自己平时所学习的知识碎片找个地方记录下来，想着写写博客，要不然学到的东西总是学了忘，忘了学，反反复复不知道已经多少次了。
