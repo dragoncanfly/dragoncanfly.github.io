@@ -84,6 +84,13 @@
       "category" : "Thinking",
       
       "url"      : "http://localhost:4000/2020/08/10/beginning/"
+    } ,
+  
+    {
+      "title"    : "知识树",
+      "category" : "",
+      
+      "url"      : "http://localhost:4000/2020/09/12/%E7%9F%A5%E8%AF%86%E6%A0%91/"
     } 
   
 ]

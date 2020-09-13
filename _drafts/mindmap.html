@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@5"></script><script src="https://cdn.jsdelivr.net/npm/markmap-lib@0.8.0/dist/browser/view.min.js"></script><script>((data, init, items, opts) => {
+        const {
+          Markmap,
+          loadPlugins
+        } = window.markmap;
+        (init ? init(loadPlugins, items, opts) : Promise.resolve()).then(() => {
+          window.mm = Markmap.create('svg#mindmap', null, data);
+        });
+      })({"t":"heading","d":1,"p":{},"v":"AI 高性能计算","c":[{"t":"heading","d":2,"p":{},"v":"算法知识","c":[{"t":"heading","d":3,"p":{},"v":"算法理论","c":[{"t":"list_item","d":4,"p":{},"v":"yolo系列(doing)"},{"t":"list_item","d":4,"p":{},"v":"deeplearning"},{"t":"list_item","d":4,"p":{},"v":"机器学习"},{"t":"list_item","d":4,"p":{},"v":"统计学习方法"}]}]},{"t":"heading","d":2,"p":{},"v":"优化相关","c":[{"t":"heading","d":3,"p":{},"v":"计算机基础","c":[{"t":"list_item","d":4,"p":{},"v":"计算机体系结构"},{"t":"list_item","d":4,"p":{},"v":"组成原理"},{"t":"list_item","d":4,"p":{},"v":"设计模式"},{"t":"list_item","d":4,"p":{},"v":"编译原理"}]},{"t":"heading","d":3,"p":{},"v":"框架","c":[{"t":"list_item","d":4,"p":{},"v":"caffe"}]},{"t":"heading","d":3,"p":{},"v":"优化知识及加速器","c":[{"t":"list_item","d":4,"p":{},"v":"GPU"},{"t":"list_item","d":4,"p":{},"v":"专有硬件加速器（hisi等）"},{"t":"list_item","d":4,"p":{},"v":"优化方法"},{"t":"list_item","d":4,"p":{},"v":"低比特量化"}]}]},{"t":"heading","d":2,"p":{},"v":"编程及工程实践能力","c":[{"t":"heading","d":3,"p":{},"v":"代码","c":[{"t":"list_item","d":4,"p":{},"v":"C/C++"},{"t":"list_item","d":4,"p":{},"v":"Python"},{"t":"list_item","d":4,"p":{},"v":"Efective/More effective C++"},{"t":"list_item","d":4,"p":{},"v":"CMake"},{"t":"list_item","d":4,"p":{},"v":"leetcode刷题指北（doing)"}]},{"t":"heading","d":3,"p":{},"v":"面试及零散知识点总结"}]}]})</script>
+</body>
+</html>
